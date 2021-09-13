@@ -18,7 +18,7 @@ interface FormData {
 interface ModalEditFoodProps {
   isOpen: boolean;
   setIsOpen: () => void;
-  editingFood: () => void;
+  editingFood: FormData;
   handleUpdateFood: (data: FormData) => void;
 }
 
